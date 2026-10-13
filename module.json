@@ -1,0 +1,43 @@
+{
+  "id": "device-regulatory-map",
+  "title": "通用器械跨辖区监管映射（分类/路径/时限）",
+  "description": "非软件类医疗器械的跨辖区监管映射：分类规则（NMPA《医疗器械分类规则》+ 分类目录、EU MDR Annex VIII 22 条分类规则、FDA 21 CFR 862–892 专科分类 + 860 程序、PMDA 药机法 Ⅰ–Ⅳ）、注册路径（注册/备案/510(k)/De Novo/PMA/THP）、代表机构要求（MAH/EC REP/US Agent）与典型周期经验值。",
+  "triggers": {
+    "keywords": [
+      "regulatory",
+      "classification",
+      "分类规则",
+      "nmpa",
+      "mdr",
+      "fda",
+      "pmda",
+      "mdsap",
+      "注册"
+    ],
+    "file_patterns": [
+      "device_reg_map.py"
+    ],
+    "intents": [
+      "器械分类",
+      "注册路径",
+      "辖区对比"
+    ]
+  },
+  "provides": [
+    "device-regulatory-map",
+    "classification-rules",
+    "pathway-map"
+  ],
+  "skills": [],
+  "needs_backends": [],
+  "license": "CC-BY-4.0",
+  "upstream": "OpenRegulatory/templates",
+  "cost": "low",
+  "lazy": true,
+  "nested": true,
+  "entry": "scripts/device_reg_map.py",
+  "deps": [],
+  "generated_by": "lgd-skeleton/1.0 (manual port from rea scaffold)",
+  "idea": "通用器械跨辖区分类与路径映射（补 SaMD 之外的通用件）",
+  "extension_note": "新增辖区：在 JURISDICTIONS 字典加一项。"
+}
