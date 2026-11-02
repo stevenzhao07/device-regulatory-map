@@ -1,6 +1,8 @@
 # device-regulatory-map
 
-> **Contributed by [@stevenzhao07](https://github.com/stevenzhao07) · Affiliation: MedXpert (medical-device RA & regulatory consultancy) · Pure technical input, no commercial promotion.**
+> Contributed by [@stevenzhao07](https://github.com/stevenzhao07) as an individual project owner.
+> "MedXpert" is an unregistered project identifier — see the account profile for name status.
+> This repo is not affiliated with any legal entity and contains no commercial promotion.
 
 非软件类医疗器械的跨辖区监管映射：分类规则（NMPA《医疗器械分类规则》+ 分类目录、EU MDR Annex VIII 22 条分类规则、FDA 21 CFR 862–892 专科分类 + 860 程序、PMDA 药机法 Ⅰ–Ⅳ）、注册路径（注册/备案/510(k)/De Novo/PMA/THP）、代表机构要求（MAH/EC REP/US Agent）与典型周期经验值。
 
