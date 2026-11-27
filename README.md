@@ -66,7 +66,7 @@ python scripts/device_reg_map.py --demo
 
 - [samd-ra-toolkit](https://github.com/stevenzhao07/samd-ra-toolkit)
 - [udi-assignment](https://github.com/stevenzhao07/udi-assignment)
-- [clinical-evaluation](https://github.com/stevenzhao07/clinical-evaluation)
+- clinical-evaluation（未建仓·计划中）
 
 ## 许可
 
